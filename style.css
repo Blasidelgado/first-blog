@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.logo {
+.header-logo {
     font-size: 24px;
     color: #F9FAF8;
     font-style: italic;
@@ -90,4 +90,33 @@ button {
     color: #e5e7eb;
     border-radius: 10px;
     border: none;
+}
+.favourites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 50px 0px;
+    margin: 0;
+}
+
+.favourites-countries {
+    display: flex;
+    justify-content: center;
+    align-items:  flex-start;
+    gap: 50px;
+}
+
+.favourites-countries article {
+    width: 150px;
+    font-size: 13px;
+}
+
+.favourites-countries img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: gray;
 }
