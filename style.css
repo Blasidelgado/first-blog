@@ -1,0 +1,48 @@
+html {
+    font-family: Roboto, Monserrat, sans-serif;
+} 
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: #1f2937;
+    height: 50px;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-style: italic;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
