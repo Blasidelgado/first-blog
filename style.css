@@ -118,5 +118,22 @@ button {
 }
 
 .quote {
-    background-color: gray;
+    background-color: #E5E7EB;
+    padding: 5% 12%;
+}
+
+.quote-div blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+.quote-div p {
+    padding: 0;
+    margin: 0;
+    margin-top: 3%;
+    text-align: right;
+    font-weight: bold;
 }
