@@ -46,3 +46,48 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10% 0;
+    align-items: flex-start;
+}
+
+.hero-title h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-title p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+div.hero-title {
+    width: 33%;
+}
+
+div.hero-image {
+    width: 33%;
+}
+
+.hero-image img {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 20px;
+    color: #e5e7eb;
+    border-radius: 10px;
+    border: none;
+}
